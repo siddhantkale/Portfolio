@@ -11,18 +11,21 @@ import Achievements from "@/components/Achievements";
 import Projects from "@/components/Projects";
 import { Typewriter } from "react-simple-typewriter";
 import "@/styles/globals.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <section className="space-y-13 px-6 pt-8">
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-20">
-        <img
-          // src="https://avatars.githubusercontent.com/u/106865018?v=4"
-          // src="/profile1.jpg"
-          src="/profile.jpeg"
-          alt="Sagar Chavan"
-          className="w-40 h-40 rounded-full object-cover shadow-md border border-gray-300 dark:border-gray-700"
-        />
+        <div className="w-40 h-40 relative">
+          <Image
+            src="/profile.jpeg"
+            alt="Sagar Chavan"
+            fill
+            className="rounded-full object-cover shadow-md border border-gray-300 dark:border-gray-700"
+            priority
+          />
+        </div>
         <div className="space-y-4 text-center sm:text-left">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
             👋 Hi,{" "}
