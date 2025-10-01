@@ -1,9 +1,6 @@
 import Link from 'next/link';
-import { useTheme } from '@/context/ThemeContext';
-import { Moon, Sun } from 'lucide-react';
 
 export default function Navbar() {
-  const { theme, toggleTheme } = useTheme();
 
   return (
     <nav className="bg-white dark:bg-gray-900 shadow px-6 py-4 flex justify-between items-center sticky top-0 z-50">

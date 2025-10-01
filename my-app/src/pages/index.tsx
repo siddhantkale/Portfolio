@@ -10,7 +10,6 @@ import Education from "@/components/Education";
 import Achievements from "@/components/Achievements";
 import Projects from "@/components/Projects";
 import { Typewriter } from "react-simple-typewriter";
-import Image from "next/image";
 
 export default function Home() {
   return (
