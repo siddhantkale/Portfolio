@@ -16,15 +16,6 @@ export default function Home() {
   return (
     <section className="space-y-13 px-6 pt-8">
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-20">
-        <div className="w-40 h-40 relative">
-          <Image
-            src=""
-            alt="Siddhant Kale"
-            fill
-            className="rounded-full object-cover shadow-md border border-gray-300 dark:border-gray-700"
-            priority
-          />
-        </div>
         <div className="space-y-4 text-center sm:text-left">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
             👋 Hi,{" "}
