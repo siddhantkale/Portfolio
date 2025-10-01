@@ -12,27 +12,27 @@ import {
 const achievements = [
   {
     icon: <FaTrophy className="text-yellow-500 w-5 h-5" />,
-    title: '1st Runner-Up – Srujan Project Competition',
-    year: '2025',
+    title: '1st PLace  – CodeWolf',
+    year: '2023',
   },
   {
     icon: <FaMedal className="text-orange-400 w-5 h-5" />,
-    title: '2nd Runner-Up – Hack-sphere Hackathon',
-    year: '2025',
+    title: '1st Place – Codewiser',
+    year: '2023',
   },
   {
     icon: <FaBolt className="text-pink-500 w-5 h-5" />,
-    title: 'Ranked 6th – Smart India Hackathon (SIH)',
+    title: 'Global Rank 141 – CodeChef Starters C',
     year: '2024',
   },
   {
     icon: <FaCheckCircle className="text-green-500 w-5 h-5" />,
-    title: 'Finalist – Inspiron 4.0 (CSI COEP)',
-    year: '2025',
+    title: 'Global Rank 121 – CodeChef Starters D',
+    year: '2024',
   },
   {
     icon: <FaHackerrank className="text-purple-500 w-5 h-5" />,
-    title: 'Solved 200+ DSA Problems on LeetCode',
+    title: 'Solved 825+ DSA Problems on LeetCode',
     year: 'Ongoing',
   },
 ];

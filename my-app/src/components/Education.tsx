@@ -1,13 +1,14 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { ReactNode } from 'react';
 import { FaGraduationCap, FaCertificate } from 'react-icons/fa';
 
 const education = [
   {
     type: 'Education',
     icon: <FaGraduationCap className="text-blue-600 dark:text-blue-400 w-5 h-5" />,
-    title: 'B.Tech in Computer Science & Business Systems',
+    title: 'B.Tech in Information Technology',
     institution: "JSPM's Rajarshi Shahu College of Engineering, Pune",
     details: 'CGPA: 9.16 | Expected: May 2025',
   },
@@ -37,7 +38,14 @@ const certifications = [
   },
 ];
 
-const TimelineItem = ({ item }: { item: any }) => (
+type ItemType = {
+  type:string,
+  icon:ReactNode,
+  title:string,
+  institution:string,
+  details:string
+}
+const TimelineItem = ({ item }: { item: ItemType }) => (
   <motion.div
     initial={{ opacity: 0, x: -20 }}
     whileInView={{ opacity: 1, x: 0 }}
