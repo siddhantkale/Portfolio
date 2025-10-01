@@ -10,7 +10,7 @@ const education = [
     icon: <FaGraduationCap className="text-blue-600 dark:text-blue-400 w-5 h-5" />,
     title: 'B.Tech in Information Technology',
     institution: "JSPM's Rajarshi Shahu College of Engineering, Pune",
-    details: 'CGPA: 9.16 | Expected: May 2025',
+    details: 'CGPA: 9.02 | Expected: July 2026',
   },
 ];
 
@@ -18,23 +18,23 @@ const certifications = [
   {
     type: 'Certification',
     icon: <FaCertificate className="text-yellow-500 w-5 h-5" />,
-    title: 'AWS Certified Solution Architect Associate',
-    institution: 'GeekforGeeks',
-    details: 'Completed: May 2025',
+    title: 'React',
+    institution: 'HackerRank',
+    details: 'Completed: May 2024',
   },
   {
     type: 'Certification',
     icon: <FaCertificate className="text-yellow-500 w-5 h-5" />,
     title: 'Frontend Development',
-    institution: 'Great Learning',
-    details: 'Completed: Feb 2023',
+    institution: 'HackerRank',
+    details: 'Completed: Feb 2024s',
   },
   {
     type: 'Certification',
     icon: <FaCertificate className="text-yellow-500 w-5 h-5" />,
-    title: 'Basics of OOP',
-    institution: 'Self-Learning',
-    details: 'Completed: Mar 2023',
+    title: 'SQL',
+    institution: 'HackerRank',
+    details: 'Completed: Mar 2025',
   },
 ];
 

@@ -1,3 +1,6 @@
+import forms from '@tailwindcss/forms'
+import typography from '@tailwindcss/typography'
+
 const config = {
   theme: {
     extend: {
@@ -6,7 +9,7 @@ const config = {
       },
     },
   },
-  plugins: ["@tailwindcss/postcss"],
+  plugins: [forms, typography],
 };
 
 export default config;
