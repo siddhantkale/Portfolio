@@ -19,7 +19,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-20">
         <div className="w-40 h-40 relative">
           <Image
-            src="/profile.jpeg"
+            src=""
             alt="Siddhant Kale"
             fill
             className="rounded-full object-cover shadow-md border border-gray-300 dark:border-gray-700"

@@ -13,7 +13,6 @@ export default function Navbar() {
       <div className="flex items-center gap-6 text-sm font-medium text-gray-700 dark:text-gray-200">
         <Link href="/" className="hover:underline">Home</Link>
         <Link href="/projects" className="hover:underline">Projects</Link>
-        <Link href="/resume" className="hover:underline">Resume</Link>
         <button onClick={toggleTheme} className="p-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
           {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
         </button>
