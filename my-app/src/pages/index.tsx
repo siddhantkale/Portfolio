@@ -20,7 +20,7 @@ export default function Home() {
         <div className="w-40 h-40 relative">
           <Image
             src="/profile.jpeg"
-            alt="Sagar Chavan"
+            alt="Siddhant Kale"
             fill
             className="rounded-full object-cover shadow-md border border-gray-300 dark:border-gray-700"
             priority
@@ -32,7 +32,7 @@ export default function Home() {
             <span className="text-white-600">
               <Typewriter
                 words={[
-                  "I'm Sagar Chavan",
+                  "I'm Siddhant Kale",
                   "I'm a Tech Enthusiast",
                   "I'm a Software Developer",
                   "I'm a Full-Stack Developer",
@@ -49,7 +49,7 @@ export default function Home() {
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-xl">
             Aspiring Software Engineer with a strong foundation in full-stack
-            development, data structures, and cloud technologies. I love
+            development, data structures, and software Engineering. I love
             building scalable, user-centric solutions that solve real-world
             problems.
           </p>
@@ -62,10 +62,10 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <FaEnvelope className="w-4 h-4" />
               <a
-                href="mailto:sagarchavan0061@gmail.com"
+                href="mailto:siddhantkale300@gmail.com"
                 className="hover:underline"
               >
-                sagarchavan0061@gmail.com
+                siddhantkale300@gmail.com
               </a>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="flex justify-center sm:justify-start gap-10 pt-1">
             <div className="relative group">
               <a
-                href="https://linkedin.com/in/sagar-chavan-65b276257/"
+                href="https://www.linkedin.com/in/siddhant-kale-4b519428a/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
             <div className="relative group">
               <a
-                href="https://github.com/Sagarr2004"
+                href="https://github.com/siddhantkale"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
             <div className="relative group">
               <a
-                href="https://leetcode.com/u/sagarchavan121/"
+                href="https://leetcode.com/u/sid-x-29/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -3,13 +3,14 @@
 import { motion } from 'framer-motion';
 
 const skills: Record<string, string[]> = {
-  Languages: ['C', 'C++', 'JavaScript', 'Core Java', 'Python'],
-  Frontend: ['HTML', 'CSS', 'Tailwind', 'React.js', 'Next.js'],
-  Backend: ['Node.js', 'Express.js','Flask'],
-  Databases: ['MongoDB', 'SQL'],
-  Tools: ['Git', 'GitHub', 'VS Code', 'AWS', 'MySQL'],
-  Core: ['OOPs', 'Data Structures and Algorithms', 'DBMS'],
+  Languages: ['C', 'C++', 'Python', 'JavaScript', 'TypeScript'],
+  Frontend: ['React.js', 'Next.js', 'Tailwind CSS'],
+  Backend: ['Node.js', 'Flask', 'Express.js', 'Django'],
+  Databases: ['MongoDB', 'MySQL', 'PostgreSQL'],
+  Tools: ['Git', 'GitHub', 'Linux', 'Postman', 'REST APIs', 'GraphQL', 'JWT', 'GitHub Actions'],
+  Core: ['Data Structures and Algorithms', 'OOP'],
 };
+
 
 export default function Skills() {
   return (

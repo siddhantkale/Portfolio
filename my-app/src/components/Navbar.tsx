@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="bg-white dark:bg-gray-900 shadow px-6 py-4 flex justify-between items-center sticky top-0 z-50">
       <div className="text-2xl font-semibold text-gray-800 dark:text-white">
-        Sagar Chavan
+        Siddhant Kale
       </div>
       <div className="flex items-center gap-6 text-sm font-medium text-gray-700 dark:text-gray-200">
         <Link href="/" className="hover:underline">Home</Link>

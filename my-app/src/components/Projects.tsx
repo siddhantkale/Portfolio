@@ -5,30 +5,23 @@ import { FaGithub } from 'react-icons/fa';
 
 const projects = [
   {
-    title: 'Automated Expert Selection for Interview Boards',
-    duration: 'Oct 2024 – Feb 2025',
+    title: 'LeetCode Reminder & Tracker',
+    duration: '2025',
     description:
-      'Expert matching system aligning interviewers’ expertise with candidates. Implemented OCR, NLP, fuzzy matching, and scoring logic.',
-    tech: ['React.js', 'Express.js', 'MongoDB', 'Cloudinary', 'JWT', 'Python', 'OCR', 'NLP'],
-    link: 'https://github.com/Sagarr2004/Capstone',
+      'Full-stack automation tool to track LeetCode progress and send daily problem reminders via scheduled cron jobs. Integrated LeetCode’s unofficial API for real-time problem data and automated solved-problem tracking with GitHub Actions.',
+    tech: ['Python', 'Selenium', 'Node.js', 'MongoDB', 'GitHub Actions', 'Nodemailer'],
+    link: 'https://github.com/siddhantkale/LeetCodeReminder', 
   },
   {
-    title: 'Restaurant Full-Stack Website',
-    duration: 'May 2024 – June 2024',
+    title: 'Price Comparison Web App',
+    duration: '2025',
     description:
-      'Responsive MERN stack restaurant platform with dynamic menu, feedback, and order tracking.',
-    tech: ['React.js', 'Express.js', 'MongoDB', 'JWT', 'Cloudinary'],
-    link: 'https://github.com/Sagarr2004/Restaurant',
-  },
-  {
-    title: 'Jagruti – Child Rights Awareness Platform',
-    duration: 'Jan 2024 – May 2024',
-    description:
-      'Interactive platform to promote legal literacy through gamified quizzes and informative content.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'MongoDB'],
-    link: 'https://github.com/SnehalShete37/JAGRUTI',
+      'Web app to compare real-time product prices across Amazon and Flipkart using web scraping. Built with Flask backend and Jinja2 templating to display sorted results in a user-friendly format.',
+    tech: ['Python', 'Flask', 'BeautifulSoup (BS4)', 'Jinja2', 'HTML', 'CSS'],
+    link: 'https://github.com/siddhantkale/scrapeit', 
   },
 ];
+
 
 export default function Projects() {
   return (
